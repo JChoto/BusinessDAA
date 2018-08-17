@@ -1,0 +1,79 @@
+/*Inicio Navegación*/
+.nav-ds:hover { 
+  background-color: gray;
+  opacity: 0.6;
+  border-radius: 60px;
+  color: white !important;  
+}
+
+.letranueva{
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+  font-size: 15pt;
+  font-weight: lighter;
+}
+
+.tamimagen
+{
+  height: 55px;
+}
+@media screen and (max-width: 500px) {
+  .tamimagen {
+      max-height: 55px;
+      max-width: 200px;
+  }
+}
+
+.medidanav{
+  padding-right: 65px;   
+}
+/*Fin Navegación*/
+
+/*Inicio Seccion Servicios Principal*/
+/*Fin Seccion Servicios Principal*/
+
+/*Inicio Seccion Pie de Pagina*/
+.colorfooter{   
+ background: #006BA9;
+ color: white;
+}
+
+.fuentefooter1{
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+  font-size: 16pt;
+  font-weight: lighter;  
+}
+
+.fuentefooter2{
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+  font-size: 12pt;
+  font-weight: lighter;  
+}
+/*Fin Seccion Pie de Pagina*/
+ 
+/*________________________________________________________________________________________________________________________*/
+/*____________________________________________INICIO RESPONSIVE___________________________________________________________*/
+/*________________________________________________________________________________________________________________________*/
+
+
+@media screen and (max-width: 992px) {
+  #mainNav a{
+     color: #fff !important; 
+  }
+
+  #mainNav{
+    background-color: #006BA9; 
+    opacity: 0.7;
+    
+ }
+
+ #mainNav a:hover{
+  background: rgb(255.255.255.0,3);
+  border-radius: 10px;
+  padding-left: 5px;
+  color: #fff !important;
+}
+}
+
+ 
+ 
+ 

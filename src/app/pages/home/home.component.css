@@ -1,0 +1,238 @@
+/*Inicio Navegación*/
+
+.nav-ds:hover {
+  background-color: gray;
+  opacity: 0.6;
+  border-radius: 60px;
+  color: white !important;
+}
+
+.letranueva {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 15pt;
+  font-weight: lighter;
+  color: #5A5961;
+}
+
+.tamimagen {
+  max-height: 55px;
+}
+
+@media screen and (max-width: 500px) {
+  .tamimagen {
+    max-height: 55px;
+    max-width: 200px;
+  }
+}
+
+.medidanav {
+  padding-right: 65px;
+}
+
+/*Fin Navegación*/
+
+/*Inicio Seccion Portada*/
+
+.posbienvenido {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  position: absolute;
+  font-weight: lighter;
+  font-size: 53pt;
+  bottom: 320px;
+  left: 230px;
+  color: #006BA9 !important;
+}
+
+.posbusines {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  position: absolute;
+  font-weight: lighter;
+  font-size: 53pt;
+  color: #006BA9 !important;
+  left: 150px;
+}
+
+.postransporte {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  position: absolute;
+  font-weight: lighter;
+  font-size: 15pt;
+  bottom: 190px;
+  left: 230px;
+  color: #5A5961 !important;
+}
+
+/*Fin Seccion Portada*/
+
+/*Inicio Seccion Sobre Nosotros*/
+
+hr.v {
+  width: 2px;
+  height: 150px;
+  background-color: #006BA9;
+}
+
+.letrasobren {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 44pt;
+  font-weight: lighter;
+  color: #006BA9;
+}
+
+.cuadrado-3 {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #006BA9;
+}
+
+#peliarriba {
+  position: absolute;
+  z-index: 0;
+}
+
+#peliabajo {
+  position: absolute;
+  z-index: 1;
+}
+
+#centrar {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 15pt;
+  font-weight: lighter;
+  text-align: justify !important;
+}
+
+.reposicion {
+  padding-top: 50px;
+  padding-left: 70px;
+}
+
+.imgsobrenosotros {
+  height: 250px;
+  width: 280px;
+  border: 1px solid black;
+}
+
+/*Fin Seccion Sobre Nosotros*/
+
+/*Inicio Seccion Servicios*/
+
+.letradesservicio {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 15pt;
+  font-weight: lighter;
+  color: #5A5961;
+}
+
+.descriservicios {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 9pt;
+  font-weight: normal;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pap {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pe {
+  height: 150px;
+}
+
+.colorbac {
+  background-color: #2B5E9E;
+  color: white;
+  border-color: #2B5E9E;
+  border-radius: 60px;
+  height: 40px;
+  width: 180px;
+}
+
+.letraverdetalles {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 17pt;
+  font-weight: lighter;
+  color: white;
+  text-transform: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.padiimgservicios {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.padi {
+  padding-bottom: 50px;
+}
+
+/*Fin Seccion Servicios*/
+
+/*Inicio Seccion Cotización*/
+
+.letracotiza {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 44pt;
+  font-weight: lighter;
+  color: white;
+}
+
+#descotiza {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 12pt;
+  font-weight: lighter;
+  text-align: justify !important;
+  color: white;
+}
+
+.centrarcontenido {
+  margin: auto;
+}
+
+#top {
+  bottom: 10px;
+  right: 50px;
+  position: fixed;
+  display: block;
+}
+
+#top:hover {
+  opacity: 0.5;
+}
+
+#contacto {
+  background: url("https://s15.postimg.cc/b0k7ebfp7/footer.png") no-repeat bottom center scroll;
+  max-width: 100%;
+  max-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*Fin Seccion Cotización*/
+
+/*Inicio Seccion Pie de Pagina*/
+
+.colorfooter {
+  background: #006BA9;
+  color: white;
+}
+
+.fuentefooter1 {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 16pt;
+  font-weight: lighter;
+}
+
+.fuentefooter2 {
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+  font-size: 12pt;
+  font-weight: lighter;
+}
+
+/*Fin Seccion Pie de Pagina*/

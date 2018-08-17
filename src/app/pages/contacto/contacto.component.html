@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Businness Developer</title>
+
+</head>
+
+<body id="page-topc">
+
+  <!-- Navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" routerLink="">
+        <a href="/home">
+          <img src="https://s15.postimg.cc/c05wvxxnv/encabezado.png" class="tamimagen" />
+        </a>
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse letranueva" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item medidanav">
+            <a routerLink="">
+              <a class="nav-link js-scroll-trigger nav-ds" href="#home">HOME</a>
+            </a>
+          </li>
+          <li class="nav-item medidanav">
+            <a routerLink="/sobrenosotros">
+              <a class="nav-link js-scroll-trigger nav-ds" (ng-click)="recargar()" href="#about">SOBRE NOSOTROS</a>
+            </a>
+          </li>
+          <li class="nav-item medidanav">
+            <a routerLink="/servicios">
+              <a class="nav-link js-scroll-trigger nav-ds" (ng-click)="recargar()" href="#service">SERVICIOS</a>
+            </a>
+          </li>
+          <li class="nav-item medidanav">
+            <a routerLink="/contacto">
+              <a class="nav-link js-scroll-trigger nav-ds" (ng-click)="recargar()" href="#contacto">CONTACTO</a>
+            </a>
+          </li>
+        </ul>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Fondo Principal & Titulo -->
+  <section id="contacto" class="download-sections content-section text-center fondoprini" style="height: 300pt;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mx-auto" style="top: 180px; text-align: left">
+          <p class="letrasobrenosotros">Contacto</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion Formulario & Datos -->
+  <section id="contacto" class="content-sectiondesr text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <br>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="well well-sm text-center">
+            <form class="form-horizontal" method="post">
+              <fieldset>
+                <div class="form-group">
+                  <div class="col-md-5">
+                    <input id="fname" name="name" type="text" placeholder="Nombre:" class="form-control letraformu">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-5">
+                    <input id="email" name="email" type="text" placeholder="Email:" class="form-control letraformu">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-5">
+                    <input id="phone" name="phone" type="text" placeholder="Teléfono:" class="form-control letraformu">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-5">
+                    <textarea class="form-control letraformu" style="z-index: 1" id="message" name="message" placeholder="Mensaje:" rows="7"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-5 text-right">
+                    <a routerLink="sobrenosotros" style="z-index: 1" class="btn btn-primary letraverdetalles colorbac" (click)="recargar()">
+                      Enviar </a>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="row medidiv">
+        <div class="col-sm-4 mx-auto">
+          <br><br><br><br><br><br><br><br>
+        </div>
+
+        <div class="col-sm-8 mx-auto">
+          <div id="peliarriba" class="cuadrado text-left">
+            <p class="letraenviar">Manuel Rendón y 11 de Noviembre</p>
+            <p class="letraenviar">Riobamba - Ecuador</p>
+            <hr style="border-color: #006BA9; width: 230px; border-width: 1px; padding-left: 50px !important;" class="bordehori"> &nbsp;
+            <p class="letraenviar">Teléfono: 0998020209</p>
+            <p class="letraenviar">bussdevelo2018@hotmail.com</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Seccion Mapa -->
+  <section id="contacto" class="content-sectiondesmap text-center">
+    <div class="container-fluid">
+      <div class="row">
+        <iframe class="mapaancho" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.1533941139683!2d-78.67294578524563!3d-1.6552883987929592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d307c9b26e0f55%3A0x5a16f39fd39d396!2sBusiness+Developer!5e0!3m2!1ses-419!2sec!4v1534298774748"
+          frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion Pie de Pagina -->
+  <footer class="colorfooter footerheight">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-sm-4 mx-auto">
+          <p class="fuentefooter1">BUSINESS</p>
+          <p class="fuentefooter1">DEVELOPER</p>
+        </div>
+
+        <div class="col-sm-4 mx-auto fuentefooter2 border-left border-right">
+          <p class="fuentefooter2">Manuel Rendón y 11 de Noviembre</p>
+          <p class="fuentefooter2" style="padding-top: 10px">Riobamba - Ecuador</p>
+        </div>
+
+        <div class="col-sm-4 mx-auto fuentefooter2">
+          <p class="fuentefooter2">Teléfono: 0998020209</p>
+          <p class="fuentefooter2" style="padding-top: 10px">bussdevelo2018@hotmail.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

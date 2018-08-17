@@ -1,0 +1,176 @@
+/*Inicio Navegación*/
+.nav-ds:hover { 
+    background-color: gray;
+    opacity: 0.6;
+    border-radius: 60px;
+    color: white !important;   
+}
+
+.letranueva 
+{
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size: 15pt;
+    font-weight: lighter;
+}
+
+.tamimagen
+{
+    height: 55px;
+}
+@media screen and (max-width: 500px) {
+    .tamimagen {
+        max-height: 55px;
+        max-width: 200px;
+    }
+  }
+
+.medidanav{
+    padding-right: 65px;    
+    }
+/*Fin Navegación*/
+
+/*Inicio Seccion Titulo Principal & Fondo*/
+.letrasobrenosotros{
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size: 54pt;
+    font-weight: lighter;
+    color: #006BA9;     
+}
+
+.fondoprini{
+    background: url("https://s15.postimg.cc/doiufn7x7/fondonosotros.png") no-repeat bottom center scroll;     
+    max-width: 100%;
+    max-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/*Fin Seccion Titulo Principal & Fondo*/
+
+/*Inicio Seccion Descripcion & Mision/Vision*/
+.cuadrado-3 {
+    width: 250px; 
+    height: 250px; 
+    border: 1px solid #006BA9;    
+}
+
+#peliarriba{ 
+    position:absolute; 
+    z-index:0; 
+    } 
+    
+#peliabajo{ 
+position:absolute;
+z-index:1;
+}
+
+.reposicion
+{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.imgsobrenosotros
+{
+ height: 250px;
+ width: 280px;     
+ border: 1px solid black;      
+}
+
+.cuadradoazul {
+    width: 250px; 
+    height: 450px; 
+    border: 1px solid #006BA9; 
+    left: 400px;
+    bottom: 10px;    
+}
+
+#imgiarriba{ position:absolute; z-index:1; }
+#imgiabajo{ position:absolute; z-index:0; } 
+
+.reubicar{   
+    left:255px;
+    bottom: 170px;
+}
+
+.reubicar2{
+    left:150px;
+    top: 300px;
+}
+
+.sonos{
+    height: 260px;
+    width: 350px;     
+    border: 1px solid black;       
+   }
+
+   hr.hor{
+    width: 150px; 
+    border: 1px solid #006BA9;   
+    left: 380px;
+    top: 30px;
+    position:absolute; z-index:0;   
+}
+
+.letramisvis{
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size: 45pt;
+    font-weight: lighter;
+    color: #006BA9;
+    text-transform: none;
+ }
+
+ #parrafomivi{
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size: 15pt;
+    font-weight: lighter;
+    text-align: justify !important;    
+   }
+/*Fin Seccion Descripcion & Mision/Vision*/
+
+/*Inicio Seccion Pie de Pagina*/
+.colorfooter{   
+   background: #006BA9;
+   color: white;
+  }
+
+.fuentefooter1{
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size: 16pt;
+    font-weight: lighter;  
+  }
+
+.fuentefooter2{
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    font-size: 12pt;
+    font-weight: lighter;  
+  }
+
+/*Fin Seccion Pie de Pagina*/
+ 
+/*________________________________________________________________________________________________________________________*/
+/*____________________________________________INICIO RESPONSIVE___________________________________________________________*/
+/*________________________________________________________________________________________________________________________*/
+
+
+@media screen and (max-width: 992px) {
+    #mainNav a{
+       color: #fff !important; 
+    }
+  
+    #mainNav{
+      background-color: #006BA9; 
+      opacity: 0.7;
+      
+   }
+
+   #mainNav a:hover{
+    background: rgb(255.255.255.0,3);
+    border-radius: 10px;
+    padding-left: 5px;
+    color: #fff !important;
+ }
+}

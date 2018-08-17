@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Businness Developer</title>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      
+      <a class="navbar-brand js-scroll-trigger" (ng-click)="recargar()" href="#home">
+        <img src="https://s15.postimg.cc/c05wvxxnv/encabezado.png" class="tamimagen" />
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse letranueva" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item medidanav">
+             
+              <a class="nav-link js-scroll-trigger nav-ds" href="#home">HOME</a>
+            
+          </li>
+          <li class="nav-item medidanav">
+            <a routerLink="sobrenosotros">
+              <a class="nav-link js-scroll-trigger nav-ds" (ng-click)="recargar()" href="#sobrenosotros">SOBRE NOSOTROS</a>
+            </a>
+          </li>
+          <li class="nav-item medidanav">
+            <a routerLink="servicios">
+              <a class="nav-link js-scroll-trigger nav-ds" (ng-click)="recargar()" href="#servicios">SERVICIOS</a>
+            </a>
+          </li>
+          <li class="nav-item medidanav">
+            <a routerLink="contacto">
+              <a class="nav-link js-scroll-trigger nav-ds" (ng-click)="recargar()" href="#contacto">CONTACTO</a>
+            </a>
+          </li>
+        </ul>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Portada -->
+  <header class="masthead" id="home">
+    <div class="intro-body">
+
+      <p class="posbienvenido">BIENVENIDOS A</p>
+      <p class="posbusines">BUSINESS DEVELOPER</p>
+      <p class="postransporte">POTENCIANDO TU NEGOCIO, DESARROLLANDO TUS IDEAS</p>
+
+    </div>
+  </header>
+
+  <!-- Seccion Sobre Nosotros -->
+  <section id="sobrenosotros" class="content-sectiondes text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+          <hr class="v">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+          <p class="letrasobren">Sobre Nosotros</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-5 mx-auto">
+          <div id="peliarriba" class="cuadrado-3"></div>
+          <div id="peliabajo" class="reposicion">
+            <img src="https://s15.postimg.cc/vni3r0izf/sobrenosotros.jpg" class="imgsobrenosotros">
+          </div>
+        </div>
+        <div class="col-sm-7 mx-auto text-left">
+          <p id="centrar">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A laboriosam molestias aliquid optio, nobis eos numquam blanditiis
+            repellendus eius doloremque molestiae quisquam sint. Eum consequatur aliquam, explicabo amet nihil aliquid? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. A laboriosam molestias aliquid optio, nobis eos numquam blanditiis
+            repellendus eius doloremque molestiae quisquam sint. Eum consequatur aliquam, explicabo amet nihil aliquid?
+          </p>
+          <a routerLink="sobrenosotros" class="btn btn-primary letraverdetalles colorbac" (click)="recargar()"> Leer más </a>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+          <hr class="v">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Seccion Servicios -->
+  <section id="servicios" class="content-sectiondes text-center">
+    <p class="letrasobren">¿Qué hacemos?</p>
+    <br>
+    <br>
+    <div class="container video-content">
+
+      <!-- Inicio Consultoria -->
+      <div class="row">
+        <div class="col-md-3 mx-auto pap">
+          <div class="row">
+            <div class="col-md-12 mx-auto padiimgservicios" style="background-color: #E5E7E8;">
+              <img class="pe" src="https://s15.postimg.cc/4po6p0iu3/image.png" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 mx-auto">
+              <p class="letradesservicio" style="height: 20px; padding-top: 10px;">CONSULTORÍA</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 mx-auto">
+
+              <p class="descriservicios">
+                Diseñamos una metodología ágil que cubre las necesidades puntuales de nuestros clientes. </p>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Consultoria -->
+        <!-- Inicio Servicio -->
+        <div class="col-md-3 mx-auto pap">
+          <div class="row">
+            <div class="col-md-12 mx-auto padiimgservicios" style="background-color: #E5E7E8">
+              <img class="pe" src="https://s15.postimg.cc/qc375zrob/image.png" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 mx-auto">
+              <p class="letradesservicio" style="height: 20px; padding-top: 10px;">SERVICIO</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 mx-auto">
+
+              <p class="descriservicios">
+                Proyectos de 4ta. Revolución industrial que anticipan a tu empresa ante el mercado. </p>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Servicio -->
+        <!-- Inicio Negocios Digitales -->
+
+        <div class="col-md-3 mx-auto pap">
+          <div class="row">
+            <div class="col-md-12 mx-auto padiimgservicios" style="background-color: #D4D7D9">
+              <img class="pe" src="https://s15.postimg.cc/o7iu4usln/image.png" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 mx-auto">
+              <p class="letradesservicio" style="height: 20px; padding-top: 10px;">NEGOCIOS DIGITALES</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 mx-auto">
+
+              <p class="descriservicios">
+                Servicios que automatizan tu empresa como el primer paso hacia la 4ta. Revolución Industrial.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fin Negocios Digitales -->
+        <!-- Inicio Emprendimiento -->
+
+        <div class="col-md-3 mx-auto pap">
+          <div class="row">
+            <div class="col-md-12 mx-auto padiimgservicios" style="background-color: #D4D7D9">
+              <img class="pe" src="https://s15.postimg.cc/jye42upe3/image.png" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 mx-auto">
+              <p class="letradesservicio" style="height: 20px; padding-top: 10px;">EMPRENDIMIENTO</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 mx-auto">
+
+              <p class="descriservicios">
+                Buscamos ampliar el ecosistema emprendedor digital y facilitar el financiamiento a startups de latinoamérica.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Emprendimiento -->
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 mx-auto">
+          <a routerLink="sobrenosotros" class="btn btn-primary letraverdetalles colorbac" (click)="recargar()">Conoce más</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+          <hr class="v">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Seccion Cotizacion -->
+  <section id="contacto" class="content-sectiondes text-center">
+    <div class="container" style="width: 550pt;">
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+          <br><br><br><br>
+          <p class="letracotiza">Solicite una estimación gratuita</p>
+        </div>
+      </div> <br>
+
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+          <p id="descotiza">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A laboriosam molestias aliquid optio, nobis eos numquam blanditiis
+            repellendus eius doloremque molestiae quisquam sint. Eum consequatur aliquam, explicabo amet nihil aliquid? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. A laboriosam molestias aliquid optio, nobis eos numquam blanditiis
+            repellendus eius doloremque molestiae quisquam sint. Eum consequatur aliquam, explicabo amet nihil aliquid?
+          </p>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+          <a routerLink="sobrenosotros" class="btn btn-primary letraverdetalles colorbac" (click)="recargar()">Cotiza ahora</a>
+        </div>
+      </div>
+      <br>
+
+      <div class="row">
+        <div class="col-sm-12 mx-auto centrarcontenido">
+          <a href="https://www.facebook.com/profile.php?id=100009185337931">
+            <i class="fa fa-facebook-f" style="color: white"></i>
+          </a>
+          &nbsp;
+          <a href="mailto:bussdevelo2018@hotmail.com">
+            <i class="fa fa-envelope" style="color: white"></i>
+          </a>
+          &nbsp;
+          <a href="https://api.whatsapp.com/send?phone=593998020209">
+            <i class="fa fa-whatsapp" style="color: white"></i>
+          </a>
+        </div>
+        <div>
+          <i (click)="clicktop()" class="fa fa-angle-up fa-4x" id="top" href="#service" style="color: white"></i>
+        </div>
+      </div>
+    <br><br><br>
+
+    </div>
+  </section>
+
+
+  <!-- Seccion Pie de Pagina -->
+  <footer class="colorfooter footerheight">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-sm-4 mx-auto">
+          <p class="fuentefooter1">BUSINESS</p>
+          <p class="fuentefooter1">DEVELOPER</p>
+        </div>
+
+        <div class="col-sm-4 mx-auto fuentefooter2 border-left border-right">
+            <p class="fuentefooter2">Manuel Rendón y 11 de Noviembre</p>
+            <p class="fuentefooter2" style="padding-top: 10px">Riobamba - Ecuador</p>
+        </div>
+        
+
+        <div class="col-sm-4 mx-auto fuentefooter2">
+            <p class="fuentefooter2">Teléfono: 0998020209</p>
+            <p class="fuentefooter2" style="padding-top: 10px">bussdevelo2018@hotmail.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
